@@ -1,6 +1,14 @@
 const { MongoClient } = require("mongodb");
 require("dotenv").config();
 
+
+
+
+
+
+
+
+
 async function main() {
   const uri = process.env.MONGO_URI;
   const client = new MongoClient(uri, { useUnifiedTopology: true });
@@ -583,3 +591,16 @@ async function listDatabases(client) {
     console.log(`- ${db.name}`);
   });
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
